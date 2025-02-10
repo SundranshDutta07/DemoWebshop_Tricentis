@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "32FB07B4D1E0E2DF8DD19C7523E97635",
+  "keywordClasses": [
+    {
+      "name": "com.demoWorkshop.utils.ExceptionHandling",
+      "keywordMethods": [
+        {
+          "name": "Exception_Handling",
+          "parameters": [
+            {
+              "name": "ScreenShotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "e",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

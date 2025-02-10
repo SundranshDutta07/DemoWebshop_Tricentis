@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "054D43C3341632A83318258CB9E515C0",
+  "keywordClasses": [
+    {
+      "name": "com.demoWorkshop.utils.Screenshot",
+      "keywordMethods": [
+        {
+          "name": "captureScreenShot",
+          "parameters": [
+            {
+              "name": "ScreenShotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

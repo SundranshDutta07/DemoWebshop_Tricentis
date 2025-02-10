@@ -1,0 +1,65 @@
+{
+  "keywordFileContentHash": "47A595928D66F5013B419C74A2BA772B",
+  "keywordClasses": [
+    {
+      "name": "com.demoWoskshop.Cart",
+      "keywordMethods": [
+        {
+          "name": "shoppingCart_Click",
+          "parameters": [
+            {
+              "name": "v_ScreenshotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "termsOfService_Checkbox",
+          "parameters": [
+            {
+              "name": "v_ScreenshotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "checkoutButton",
+          "parameters": [
+            {
+              "name": "v_ScreenshotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
