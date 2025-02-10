@@ -106,10 +106,13 @@ try {
 	 WebUI.comment('Verifying Total Price')
 	 assert WebUI.verifyMatch(SuccessOrderDetails[0].toString(), ConfirmOrderDetails[4].toString(), false)
 
-	 WebUI.comment('Verifying PDF Invoice deownload')
+	 WebUI.comment('Click on PDF Invoice deownload')
 	 CustomKeywords.'com.demoWoskshop.Checkout.pdfInvoice_Button'(v_ScreenshotPath)
 	}
 	finally {
 		WebUI.comment('Logout')
 		CustomKeywords.'com.demoWoskshop.Login_Logout.logout'(v_ScreenshotPath)
+
+		WebUI.comment('Verifying PDF Invoice deownload')
+		CustomKeywords.'com.demoWoskshop.Checkout.downloadFileSS'(v_File, v_ScreenshotPath)
 	}
