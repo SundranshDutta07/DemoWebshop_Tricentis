@@ -264,4 +264,54 @@ public class Checkout {
 			logger.logFailed('Error in pdfInvoice_Button'+e.message)
 		}
 	}
+
+	@Keyword
+	def downloadFileSS(v_File, ScreenShotPath) {
+		try {
+			// Specify the date pattern in ddmmyyyy format
+
+			Date currentDate = new Date()
+			SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd")
+			SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy")
+			String dateFolder = dateFormat.format(currentDate)
+			String dateFolder1 = dateFormat1.format(currentDate)
+
+			// Define the dynamic download directory
+			String downloadDir = "D:\\Download_PDF\\" + dateFolder1
+			File folder = new File(downloadDir)
+
+			if(!folder.exists()) {
+				folder.mkdirs()
+				System.out.println("Folder created:" + downloadDir)
+			}else {
+				System.out.println("Folder already exists:" + downloadDir)
+			}
+
+			System.out.println(folder.absolutePath)
+			String V_FILE = v_File+dateFolder
+			System.out.println(V_FILE)
+			//Get the very first file of the folder
+			File[] pdfFiles= folder.listFiles({ file-> file.name.contains(""+V_FILE+"")} as FileFilter)
+			if(pdfFiles.size()==0) {
+				System.out.println("No pdf files found in the folder")
+				return
+			}
+			
+			String pdfUrl = "file:///"+downloadDir.replace("\\","/")+"/"+V_FILE+".pdf"
+			WebUI.delay(GlobalVariable.G_shortWait)
+			WebUI.openBrowser(pdfUrl)
+			WebUI.maximizeWindow()
+
+			WebUI.delay(5)
+			//Take a screenshot of the open PDF in the browser
+			SS.captureScreenShot(ScreenShotPath)
+
+			//Closing the browser
+			WebUI.closeBrowser()
+		}catch(Exception e) {
+			ExceptionHandling EH = new ExceptionHandling()
+			EH.Exception_Handling(ScreenShotPath, e.toString())
+			logger.logFailed('Error in buttonLinkLoan'+e.message)
+		}
+	}
 }
