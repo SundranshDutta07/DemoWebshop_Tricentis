@@ -252,4 +252,11 @@
       <masked>false</masked>
       <name>v_BAD</name>
    </variable>
+   <variable>
+      <defaultValue>'order_'</defaultValue>
+      <description></description>
+      <id>43340160-82f9-4396-b743-6c5e4835272b</id>
+      <masked>false</masked>
+      <name>v_File</name>
+   </variable>
 </TestCaseEntity>
