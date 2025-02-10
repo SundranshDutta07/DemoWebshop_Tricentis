@@ -29,7 +29,7 @@ Login_Logout.groovy → Login and Logout function
  
 3. Test Cases
 Utils->TC_01...Login->Contain test for login & logout
-Sanity->TC_02...Registration -> Registers a new user
+Sanity->TC_02...Registration -> Registers a new user(Please use new credentials for every run)
 Sanity->TC_03...E2E_Checkout -> End-to-end scenario covering login, search, add to cart, checkout
  
  
