@@ -8,6 +8,7 @@ import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import java.text.SimpleDateFormat
 
 public class Checkout {
 	private static final KeywordLogger logger = KeywordLogger.getInstance(Registration.class)
@@ -310,8 +311,8 @@ public class Checkout {
 			WebUI.closeBrowser()
 		}catch(Exception e) {
 			ExceptionHandling EH = new ExceptionHandling()
-			EH.Exception_Handling(ScreenShotPath, e.toString())
-			logger.logFailed('Error in buttonLinkLoan'+e.message)
+			EH.Exception_Handling(v_ScreenshotPath, e)
+			logger.logFailed('Error in downloadFileSS'+e.message)
 		}
 	}
 }
