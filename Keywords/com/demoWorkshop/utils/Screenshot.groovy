@@ -16,7 +16,7 @@ public class Screenshot {
 
 	//Capture screenshots
 	@Keyword
-	def captureScreenShot(String ScreenShotPath) {
+	def captureScreenShot(String v_ScreenshotPath) {
 		WebUI.waitForPageLoad(10)
 		try {
 			WebUI.delay(2)
@@ -25,7 +25,7 @@ public class Screenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize())
 			WebUI.delay(2)
 			BufferedImage screenCapture = robot.createScreenCapture(screenRect)
-			String screenshotPath = WebUI.takeFullPageScreenshot(((ScreenShotPath + '/screenshot_name') + System.currentTimeMillis()) + '.png', FailureHandling.OPTIONAL)
+			String screenshotPath = WebUI.takeFullPageScreenshot(((v_ScreenshotPath + '/screenshot_name') + System.currentTimeMillis()) + '.png', FailureHandling.OPTIONAL)
 			ImageIO.write(screenCapture, "png", new File(screenshotPath))
 		} catch (Exception e) {
 			logger.logFailed("Failed to capture screenshot : "+ e.getMessage())

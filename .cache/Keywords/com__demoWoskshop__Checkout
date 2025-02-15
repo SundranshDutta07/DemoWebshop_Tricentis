@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0C2BF316630254BAF9F3C21B422F3430",
+  "keywordFileContentHash": "236CF8227CA0C58B21D9A833816F5662",
   "keywordClasses": [
     {
       "name": "com.demoWoskshop.Checkout",
@@ -376,6 +376,37 @@
         {
           "name": "pdfInvoice_Button",
           "parameters": [
+            {
+              "name": "v_ScreenshotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "downloadFileSS_NoDate",
+          "parameters": [
+            {
+              "name": "v_File",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
             {
               "name": "v_ScreenshotPath",
               "initialExpression": "",

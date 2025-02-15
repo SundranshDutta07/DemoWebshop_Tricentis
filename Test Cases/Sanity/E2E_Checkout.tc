@@ -4,6 +4,7 @@
    <name>E2E_Checkout</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f0778838-578a-4454-886e-433d8ddd2c15</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -119,6 +120,12 @@
       <value></value>
       <variableId>b1e0cc3b-9b90-417a-8e4b-bf78d733c12a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43340160-82f9-4396-b743-6c5e4835272b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'D:\\Assignment\\Screenshots\\E2E_Checkout'</defaultValue>
       <description></description>
@@ -190,42 +197,42 @@
       <name>v_Checkout</name>
    </variable>
    <variable>
-      <defaultValue>'Sundransh'</defaultValue>
+      <defaultValue>'tester'</defaultValue>
       <description></description>
       <id>32557c0a-a44b-41a9-abce-a3d1c1ddccbe</id>
       <masked>false</masked>
       <name>v_FirstName</name>
    </variable>
    <variable>
-      <defaultValue>'Dutta'</defaultValue>
+      <defaultValue>'demo'</defaultValue>
       <description></description>
       <id>77e06a77-b686-463d-b875-ac232e472d6f</id>
       <masked>false</masked>
       <name>v_LastName</name>
    </variable>
    <variable>
-      <defaultValue>'Palam'</defaultValue>
+      <defaultValue>'dwarka'</defaultValue>
       <description></description>
       <id>ccbe773a-4c7e-4459-838f-43f5fef4c54b</id>
       <masked>false</masked>
       <name>v_City</name>
    </variable>
    <variable>
-      <defaultValue>'Great View Apartment'</defaultValue>
+      <defaultValue>'Netaji subhash appt'</defaultValue>
       <description></description>
       <id>df3b3fe8-0da3-4375-a5fd-95f3a3714669</id>
       <masked>false</masked>
       <name>v_Address</name>
    </variable>
    <variable>
-      <defaultValue>'110072'</defaultValue>
+      <defaultValue>'110075'</defaultValue>
       <description></description>
       <id>2be5901b-b233-45cf-b06f-23b7cc943a5f</id>
       <masked>false</masked>
       <name>v_ZipCode</name>
    </variable>
    <variable>
-      <defaultValue>'7011044161'</defaultValue>
+      <defaultValue>'7011044160'</defaultValue>
       <description></description>
       <id>f061f8d9-27dd-49db-9f0f-2bf34ae47a07</id>
       <masked>false</masked>

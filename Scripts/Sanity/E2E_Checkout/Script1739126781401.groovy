@@ -114,5 +114,5 @@ try {
 		CustomKeywords.'com.demoWoskshop.Login_Logout.logout'(v_ScreenshotPath)
 
 		WebUI.comment('Verifying PDF Invoice deownload')
-		CustomKeywords.'com.demoWoskshop.Checkout.downloadFileSS'(v_File, v_ScreenshotPath)
+		CustomKeywords.'com.demoWoskshop.Checkout.downloadFileSS_NoDate'(v_File, v_ScreenshotPath)
 	}

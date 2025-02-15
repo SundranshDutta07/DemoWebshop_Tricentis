@@ -267,7 +267,7 @@ public class Checkout {
 	}
 
 	@Keyword
-	def downloadFileSS(v_File, ScreenShotPath) {
+	def downloadFileSS_NoDate(v_File, v_ScreenshotPath) {
 		try {
 			// Specify the date pattern in ddmmyyyy format
 
@@ -289,7 +289,7 @@ public class Checkout {
 			}
 
 			System.out.println(folder.absolutePath)
-			String V_FILE = v_File+dateFolder
+			String V_FILE = v_File
 			System.out.println(V_FILE)
 			//Get the very first file of the folder
 			File[] pdfFiles= folder.listFiles({ file-> file.name.contains(""+V_FILE+"")} as FileFilter)
@@ -298,21 +298,24 @@ public class Checkout {
 				return
 			}
 			
-			String pdfUrl = "file:///"+downloadDir.replace("\\","/")+"/"+V_FILE+".pdf"
-			WebUI.delay(GlobalVariable.G_shortWait)
+	//		String pdfUrl = "file:///"+downloadDir.replace("\\","/")+"/"+V_FILE+".pdf"
+			pdfFiles = pdfFiles.toList().sort{ -it.lastModified() } as File[]
+			File firstFile = pdfFiles[0]
+			String pdfUrl = "file:///"+firstFile.absolutePath.replace("\\","/")
+			WebUI.delay(5)
 			WebUI.openBrowser(pdfUrl)
 			WebUI.maximizeWindow()
 
 			WebUI.delay(5)
 			//Take a screenshot of the open PDF in the browser
-			SS.captureScreenShot(ScreenShotPath)
+			SS.captureScreenShot(v_ScreenshotPath)
 
 			//Closing the browser
 			WebUI.closeBrowser()
 		}catch(Exception e) {
 			ExceptionHandling EH = new ExceptionHandling()
 			EH.Exception_Handling(v_ScreenshotPath, e)
-			logger.logFailed('Error in downloadFileSS'+e.message)
+			logger.logFailed('Error in downloadFileSS_NoDate'+e.message)
 		}
 	}
 }

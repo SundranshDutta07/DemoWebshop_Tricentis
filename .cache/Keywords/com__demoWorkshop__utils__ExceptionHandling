@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "32FB07B4D1E0E2DF8DD19C7523E97635",
+  "keywordFileContentHash": "A4F82CBB3E9E58FCD7F4B74413BC330B",
   "keywordClasses": [
     {
       "name": "com.demoWorkshop.utils.ExceptionHandling",
@@ -8,7 +8,7 @@
           "name": "Exception_Handling",
           "parameters": [
             {
-              "name": "ScreenShotPath",
+              "name": "v_ScreenshotPath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
