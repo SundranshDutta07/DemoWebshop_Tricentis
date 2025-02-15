@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C5563D8D95C5440AD7995D493F850A75",
+  "keywordClasses": [
+    {
+      "name": "com.demoWorkshop.utils.DirectoryChange",
+      "keywordMethods": [
+        {
+          "name": "pdfDirectoryChange",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

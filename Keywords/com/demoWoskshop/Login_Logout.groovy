@@ -6,6 +6,8 @@ import com.demoWorkshop.utils.Screenshot
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.demoWorkshop.utils.DirectoryChange
+
 
 public class Login_Logout {
 	private static final KeywordLogger logger = KeywordLogger.getInstance(Login_Logout.class)
@@ -14,6 +16,9 @@ public class Login_Logout {
 	@Keyword
 	def login_Into(String v_ScreenshotPath, String v_URL, v_Email, v_Password) {
 		try {
+			DirectoryChange DC = new DirectoryChange()
+			DC.pdfDirectoryChange()
+			
 			WebUI.openBrowser(v_URL)
 			WebUI.maximizeWindow()
 

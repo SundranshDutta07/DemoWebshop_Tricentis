@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A2D9267BE71023AD1853F9BB80AD4ABD",
+  "keywordFileContentHash": "841977C2A643F8F4F10928A9E0676F3E",
   "keywordClasses": [
     {
       "name": "com.demoWoskshop.Category_and_Product",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "computersCategory",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "electronicsCategory",
@@ -56,7 +58,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "apparelShoesCategory",
@@ -74,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "digitalDownloadCategory",
@@ -92,7 +96,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "jewelleryCategory",
@@ -110,7 +115,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "giftCardsCategory",
@@ -128,7 +134,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "cellPhones_SubCategory",
@@ -146,7 +153,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "cameraPhoto_SubCategory",
@@ -164,7 +172,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "desktops_SubCategory",
@@ -182,7 +191,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "accessories_SubCategory",
@@ -200,7 +210,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "notebooks_SubCategory",
@@ -218,7 +229,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "dynamicProductSelection",
@@ -249,7 +261,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "dynamicProductPrice_Actual",
@@ -280,7 +293,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "dynamicAddToCart",
@@ -311,7 +325,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "searchProduct",
@@ -342,7 +357,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "productAddedToCart_Message",
@@ -360,10 +376,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

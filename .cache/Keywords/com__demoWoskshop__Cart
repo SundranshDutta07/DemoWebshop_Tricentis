@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "47A595928D66F5013B419C74A2BA772B",
+  "keywordFileContentHash": "54A0B53E3848D8806DBB14206A0D7418",
   "keywordClasses": [
     {
       "name": "com.demoWoskshop.Cart",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "termsOfService_Checkbox",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "checkoutButton",
@@ -56,10 +58,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

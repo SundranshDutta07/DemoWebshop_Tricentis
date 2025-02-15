@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "054D43C3341632A83318258CB9E515C0",
+  "keywordFileContentHash": "2B1C2362AD01CED7BCC8F67A69A03389",
   "keywordClasses": [
     {
       "name": "com.demoWorkshop.utils.Screenshot",
@@ -8,7 +8,7 @@
           "name": "captureScreenShot",
           "parameters": [
             {
-              "name": "ScreenShotPath",
+              "name": "v_ScreenshotPath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

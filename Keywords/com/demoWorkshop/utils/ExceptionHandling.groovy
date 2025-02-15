@@ -40,12 +40,12 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public class ExceptionHandling {
 	@Keyword
-	def Exception_Handling(String ScreenShotPath, String e) {
+	def Exception_Handling(String v_ScreenshotPath, String e) {
 
 		Robot robot = new Robot()
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize())
 		BufferedImage screenCapture = robot.createScreenCapture(screenRect)
-		String screenshotPath = WebUI.takeFullPageScreenshot(((ScreenShotPath + '/') + System.currentTimeMillis()) + 'Exception_Failure.png', FailureHandling.OPTIONAL)
+		String screenshotPath = WebUI.takeFullPageScreenshot(((v_ScreenshotPath + '/') + System.currentTimeMillis()) + 'Exception_Failure.png', FailureHandling.OPTIONAL)
 		ImageIO.write(screenCapture, "png", new File(screenshotPath))
 
 		println(e)
